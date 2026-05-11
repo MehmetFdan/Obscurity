@@ -1,0 +1,22 @@
+{
+    "name": "HorrorGame.Tests.EditMode",
+    "rootNamespace": "HorrorGame.Tests.EditMode",
+    "references": [
+        "HorrorGame.Core",
+        "Unity.ResourceManager"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "noEngineReferences": false
+}

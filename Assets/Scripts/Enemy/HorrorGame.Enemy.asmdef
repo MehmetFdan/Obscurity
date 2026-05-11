@@ -1,0 +1,17 @@
+{
+    "name": "HorrorGame.Enemy",
+    "rootNamespace": "HorrorGame.Enemy",
+    "references": [
+        "HorrorGame.Core",
+        "HorrorGame.Utils"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
