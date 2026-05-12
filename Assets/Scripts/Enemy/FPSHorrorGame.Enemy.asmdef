@@ -1,9 +1,8 @@
 {
-    "name": "HorrorGame.Gameplay",
-    "rootNamespace": "HorrorGame.Gameplay",
+    "name": "FPSHorrorGame.Enemy",
+    "rootNamespace": "HorrorGame.Enemy",
     "references": [
-        "HorrorGame.Core",
-        "HorrorGame.Utils"
+        "FPSHorrorGame.Core"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

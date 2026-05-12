@@ -1,9 +1,9 @@
 {
-    "name": "HorrorGame.Save",
-    "rootNamespace": "HorrorGame.Save",
+    "name": "FPSHorrorGame.Core",
+    "rootNamespace": "HorrorGame.Core",
     "references": [
-        "HorrorGame.Core",
-        "HorrorGame.Utils"
+        "Unity.Addressables",
+        "Unity.ResourceManager"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

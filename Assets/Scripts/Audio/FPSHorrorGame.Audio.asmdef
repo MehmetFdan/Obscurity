@@ -1,9 +1,8 @@
 {
-    "name": "HorrorGame.Enemy",
-    "rootNamespace": "HorrorGame.Enemy",
+    "name": "FPSHorrorGame.Audio",
+    "rootNamespace": "HorrorGame.Audio",
     "references": [
-        "HorrorGame.Core",
-        "HorrorGame.Utils"
+        "FPSHorrorGame.Core"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

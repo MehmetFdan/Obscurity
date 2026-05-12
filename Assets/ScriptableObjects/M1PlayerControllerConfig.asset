@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6accc2fd6bb040249db3b60ab68493ec, type: 3}
+  m_Name: M1PlayerControllerConfig
+  m_EditorClassIdentifier: 
+  walkSpeed: 4.2
+  sprintMultiplier: 1.8
+  crouchSpeedMultiplier: 0.55
+  acceleration: 22
+  airAcceleration: 7
+  gravity: -24
+  groundedGravity: -2
+  maxSlopeAngle: 45
+  groundProbeDistance: 0.35
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  mouseSensitivity: {x: 0.12, y: 0.12}
+  gamepadSensitivity: {x: 180, y: 140}
+  minPitch: -89
+  maxPitch: 89
+  invertY: 0
+  maxStamina: 100
+  staminaDrainPerSecond: 18
+  staminaRegenPerSecond: 14
+  staminaRegenDelay: 0.75
+  exhaustedReenableThreshold: 22
+  lowStaminaThreshold: 20
+  lowStaminaEventCooldown: 3
+  lowSanityThreshold: 0.35
+  lowSanityRegenMultiplier: 0.55
+  crouchToggle: 1
+  standingHeight: 2
+  crouchingHeight: 1
+  standingCameraHeight: 1.65
+  crouchingCameraHeight: 0.95
+  cameraCrouchSmoothTime: 0.08
+  standCheckRadiusPadding: 0.02
+  ceilingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  leanAngle: 15
+  leanOffset: 0.22
+  leanSmoothTime: 0.075
+  leanFootstepIntervalMultiplier: 1.25
+  walkBobAmplitude: 0.035
+  sprintBobAmplitude: 0.06
+  crouchBobAmplitude: 0.018
+  walkBobFrequency: 7.5
+  sprintBobFrequency: 11.5
+  crouchBobFrequency: 4.8
+  bobSmoothTime: 0.05
+  walkNoiseAmplitude: 0.05
+  sprintNoiseAmplitude: 0.12
+  exhaustedNoiseAmplitude: 0.2
+  walkNoiseFrequency: 0.7
+  sprintNoiseFrequency: 1.15
+  exhaustedNoiseFrequency: 1.6
+  noiseBlendSpeed: 7
+  walkSoundRadius: 3
+  sprintSoundRadius: 7
+  crouchSoundRadius: 1.2

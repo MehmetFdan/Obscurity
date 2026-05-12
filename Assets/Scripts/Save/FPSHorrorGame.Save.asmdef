@@ -1,9 +1,8 @@
 {
-    "name": "HorrorGame.Audio",
-    "rootNamespace": "HorrorGame.Audio",
+    "name": "FPSHorrorGame.Save",
+    "rootNamespace": "HorrorGame.Save",
     "references": [
-        "HorrorGame.Core",
-        "HorrorGame.Utils"
+        "FPSHorrorGame.Core"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

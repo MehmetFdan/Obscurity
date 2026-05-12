@@ -1,7 +1,10 @@
 {
-    "name": "HorrorGame.Utils",
-    "rootNamespace": "HorrorGame.Utils",
-    "references": [],
+    "name": "FPSHorrorGame.Gameplay",
+    "rootNamespace": "HorrorGame.Gameplay",
+    "references": [
+        "FPSHorrorGame.Core",
+        "FPSHorrorGame.Player"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

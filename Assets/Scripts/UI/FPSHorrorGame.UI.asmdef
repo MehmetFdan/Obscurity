@@ -1,9 +1,9 @@
 {
-    "name": "HorrorGame.Core",
-    "rootNamespace": "HorrorGame.Core",
+    "name": "FPSHorrorGame.UI",
+    "rootNamespace": "HorrorGame.UI",
     "references": [
-        "Unity.Addressables",
-        "Unity.ResourceManager"
+        "FPSHorrorGame.Core",
+        "FPSHorrorGame.Player"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

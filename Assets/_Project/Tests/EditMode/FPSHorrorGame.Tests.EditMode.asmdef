@@ -1,8 +1,15 @@
 {
-    "name": "HorrorGame.Tests.EditMode",
+    "name": "FPSHorrorGame.Tests.EditMode",
     "rootNamespace": "HorrorGame.Tests.EditMode",
     "references": [
-        "HorrorGame.Core",
+        "FPSHorrorGame.Core",
+        "FPSHorrorGame.Player",
+        "FPSHorrorGame.Enemy",
+        "FPSHorrorGame.Gameplay",
+        "FPSHorrorGame.Audio",
+        "FPSHorrorGame.UI",
+        "FPSHorrorGame.Save",
+        "FPSHorrorGame.Utils",
         "Unity.ResourceManager"
     ],
     "includePlatforms": [
@@ -13,7 +20,9 @@
     "overrideReferences": false,
     "precompiledReferences": [],
     "autoReferenced": false,
-    "defineConstraints": [],
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
     "versionDefines": [],
     "optionalUnityReferences": [
         "TestAssemblies"

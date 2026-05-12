@@ -8,6 +8,7 @@ namespace HorrorGame.Core
     /// <summary>
     /// ServiceLocator-registered GameObject pool built on UnityEngine.Pool.
     /// </summary>
+    [DefaultExecutionOrder(ServiceExecutionOrder.CoreServices)]
     [DisallowMultipleComponent]
     public sealed class ObjectPoolManager : MonoBehaviour, IObjectPoolManager
     {

@@ -1,8 +1,16 @@
 {
-    "name": "HorrorGame.Tests.PlayMode",
+    "name": "FPSHorrorGame.Tests.PlayMode",
     "rootNamespace": "HorrorGame.Tests.PlayMode",
     "references": [
-        "HorrorGame.Core"
+        "FPSHorrorGame.Core",
+        "FPSHorrorGame.Player",
+        "FPSHorrorGame.Enemy",
+        "FPSHorrorGame.Gameplay",
+        "FPSHorrorGame.Audio",
+        "FPSHorrorGame.UI",
+        "FPSHorrorGame.Save",
+        "FPSHorrorGame.Utils",
+        "Unity.Cinemachine"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
@@ -10,7 +18,9 @@
     "overrideReferences": false,
     "precompiledReferences": [],
     "autoReferenced": false,
-    "defineConstraints": [],
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
     "versionDefines": [],
     "optionalUnityReferences": [
         "TestAssemblies"

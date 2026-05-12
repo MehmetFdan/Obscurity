@@ -1,9 +1,10 @@
 {
-    "name": "HorrorGame.UI",
-    "rootNamespace": "HorrorGame.UI",
+    "name": "FPSHorrorGame.Player",
+    "rootNamespace": "HorrorGame.Player",
     "references": [
-        "HorrorGame.Core",
-        "HorrorGame.Utils"
+        "FPSHorrorGame.Core",
+        "Unity.InputSystem",
+        "Unity.Cinemachine"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

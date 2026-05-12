@@ -10,6 +10,7 @@ namespace HorrorGame.Core
     /// <summary>
     /// Addressables-backed scene loader registered through the ServiceLocator.
     /// </summary>
+    [DefaultExecutionOrder(ServiceExecutionOrder.CoreServices)]
     [DisallowMultipleComponent]
     public sealed class AddressableSceneLoader : MonoBehaviour, ISceneLoader
     {
