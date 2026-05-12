@@ -1,21 +1,31 @@
 # Unity generated folders
-[Ll]ibrary/
-[Tt]emp/
-[Oo]bj/
-[Bb]uild/
-[Bb]uilds/
-[Ll]ogs/
-[Uu]ser[Ss]ettings/
-[Mm]emoryCaptures/
-[Rr]ecordings/
+.utmp/
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+*.log
 
 # IDE and editor state
 .vs/
 .vscode/
 .idea/
+/[Aa]ssets/Plugins/Editor/JetBrains*
+*.DotSettings.user
+.gradle/
+ExportedObj/
+.consulo/
 *.csproj
+*.unityproj
 *.sln
 *.slnx
+*.suo
+*.tmp
 *.user
 *.userprefs
 *.pidb
@@ -26,10 +36,24 @@
 *.opendb
 *.VC.db
 
-# Unity crash and profiler output
+# Unity generated meta and debug output
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
 sysinfo.txt
+mono_crash.*
 *.stackdump
 *.traceevents
+
+# Builds and exports
+*.apk
+*.aab
+*.unitypackage
+*.unitypackage.meta
+*.app
+BuildReports/
+TestResults/
+test-results/
 
 # OS files
 .DS_Store
@@ -40,7 +64,25 @@ Desktop.ini
 Packages/com.unity.package-manager-ui/
 Packages/packages-lock.json.tmp
 
-# Local build outputs
-BuildReports/
-TestResults/
-test-results/
+# Crashlytics generated file
+crashlytics-build.properties
+
+# TestRunner generated files
+InitTestScene*.unity*
+
+# Addressables default ignores, before user customizations
+/ServerData
+/[Aa]ssets/StreamingAssets/aa*
+/[Aa]ssets/AddressableAssetsData/link.xml*
+/[Aa]ssets/Addressables_Temp*
+/[Aa]ssets/AddressableAssetsData/*/*.bin*
+
+# Visual Scripting auto-generated files
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db.meta
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers.meta
+
+# Auto-generated scenes and cache in Assets
+/[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+/[Aa]ssets/[Ss]ceneDependencyCache*
